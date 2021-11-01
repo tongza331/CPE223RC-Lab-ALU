@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 22 13:02:59 2021
+# Process ID: 23212
+# Current directory: D:/ALU_tong
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21196 D:\ALU_tong\ALU_tong.xpr
+# Log file: D:/ALU_tong/vivado.log
+# Journal file: D:/ALU_tong\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALU_tong/ALU_tong.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 871.191 ; gain = 233.844
+update_compile_order -fileset sources_1
+close_project
+open_project D:/project_1000/project_1000.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tong/Downloads/bcdto7seg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tong/Downloads/counter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tong/Downloads/divider.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tong/Downloads/top.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 22 21:32:39 2021...
